@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Learning React: Week 2</h1>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,9 +17,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello World
         </a>
       </header>
+      <h1>First time using "React"</h1>
+      <p> Where will this show up?? </p>
+      <div> <button>hello world</button> </div>
+      <a href="wwww.google.com" target="_blank">Click this link</a>
     </div>
   );
 }
