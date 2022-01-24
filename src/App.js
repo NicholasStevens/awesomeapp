@@ -5,11 +5,11 @@ import Title from "./components/Title";
 function App() {
   return (
     <div className="App">
-      <main>
-        <Title />
-      </main>
       <header className="App-header">
-        <h1>Learning React: Week 2</h1>
+        <main>
+          <Title />
+          <h1>Learning React: Week 2</h1>
+        </main>
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
