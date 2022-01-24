@@ -5,6 +5,9 @@ import Title from "./components/Title";
 function App() {
   return (
     <div className="App">
+      <main>
+        <Title />
+      </main>
       <header className="App-header">
         <h1>Learning React: Week 2</h1>
 
