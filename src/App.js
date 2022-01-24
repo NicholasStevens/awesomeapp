@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import Title from "./Title";
+import logo from "./logo.svg";
+import "./App.css";
+import Title from "./components/Title";
 
 function App() {
   return (
@@ -23,8 +23,13 @@ function App() {
       </header>
       <h1>First time using "React"</h1>
       <p> Where will this show up?? </p>
-      <div> <button>hello world</button> </div>
-      <a href="wwww.google.com" target="_blank">Click this link</a>
+      <div>
+        {" "}
+        <button>hello world</button>{" "}
+      </div>
+      <a href="wwww.google.com" target="_blank">
+        Click this link
+      </a>
     </div>
   );
 }
